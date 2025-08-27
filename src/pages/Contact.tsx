@@ -36,7 +36,7 @@ const Contact = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:5000/api/contact", {
+      const response = await fetch("https://riteshbackend45-3.onrender.com/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -134,7 +134,7 @@ const Contact = () => {
                       </Button>
 
                       <Button 
-                        onClick={() => window.location.href = "tel:+917028564362"} 
+                        onClick={() => window.location.href = "tel:+919175314747"} 
                         variant="outline" 
                         className="w-full"
                       >
